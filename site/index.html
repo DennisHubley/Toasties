@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toasties — Grilled Cheese Trailer · Nova Scotia's South Shore</title>
+  <meta name="description" content="Toasties is a grilled cheese food trailer from Nova Scotia's South Shore. Made fresh to order on classic white bread, grilled in garlic parmesan butter. See the menu and find out where the trailer is today.">
+  <meta name="theme-color" content="#FCCC00">
+
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <!-- Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Toasties — Grilled Cheese Trailer">
+  <meta property="og:description" content="Seriously good grilled cheese, made to order and grilled in garlic parmesan butter. Find the trailer at markets, beaches and festivals across the South Shore.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Toasties",
+    "description": "Grilled cheese food trailer serving farmers' markets, beaches, festivals and community events on Nova Scotia's South Shore.",
+    "servesCuisine": "Grilled cheese",
+    "priceRange": "$",
+    "image": "assets/og-image.jpg",
+    "areaServed": "South Shore, Nova Scotia, Canada",
+    "founder": { "@type": "Person", "name": "Brett" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Skip to menu</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main">
+      <a class="nav__brand" href="#top" aria-label="Toasties home">
+        <img src="assets/logo-sm.png" alt="Toasties" width="72" height="72">
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#find-us">Find the Trailer</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav__cta">Book Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="eyebrow__dot"></span> Nova Scotia's South Shore</p>
+          <h1 class="hero__title">Seriously good <span class="hero__title-accent">grilled cheese,</span> made to order.</h1>
+          <p class="hero__lede">Classic white bread, quality cheeses and our signature <strong>garlic parmesan butter</strong> — grilled fresh at markets, beaches and festivals near you.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#menu">See the menu</a>
+            <a class="btn btn--ghost" href="#find-us">Find the trailer</a>
+          </div>
+          <a class="next-stop" id="hero-next-stop" href="#find-us" hidden>
+            <span class="next-stop__pin" aria-hidden="true">📍</span>
+            <span class="next-stop__text"></span>
+            <span class="next-stop__arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+        <div class="hero__visual">
+          <figure class="hero__photo">
+            <img src="assets/hero.jpg" alt="A cheesy grilled cheese sandwich being pulled apart, cheese stretching between the halves" width="933" height="1400" fetchpriority="high">
+          </figure>
+          <img class="hero__sticker" src="assets/logo.png" alt="" width="900" height="900" aria-hidden="true">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Garlic parmesan butter</span><span>•</span>
+        <span>Made fresh to order</span><span>•</span>
+        <span>Local ingredients</span><span>•</span>
+        <span>Toastie of the Day</span><span>•</span>
+        <span>Sweet Melts on honey-butter sourdough</span><span>•</span>
+        <span>Garlic parmesan butter</span><span>•</span>
+        <span>Made fresh to order</span><span>•</span>
+        <span>Local ingredients</span><span>•</span>
+        <span>Toastie of the Day</span><span>•</span>
+        <span>Sweet Melts on honey-butter sourdough</span><span>•</span>
+      </div>
+    </div>
+
+    <!-- ============ MENU ============ -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">What we're grilling</p>
+          <h2 class="section__title">The Menu</h2>
+          <p class="section__lede">Every Toastie starts with two slices of cheese and our garlic parmesan butter. Build your own with the add-ons, or go sweet with a melt.</p>
+        </header>
+
+        <div id="menu-root" class="menu__root"><!-- rendered by js/app.js --></div>
+
+        <div class="menu__footer">
+          <p class="menu__notes" id="menu-notes"></p>
+          <div class="menu__downloads">
+            <a class="btn btn--small btn--ghost" href="assets/menu/toasties-menu-horizontal.jpg" target="_blank" rel="noopener">Printable menu</a>
+            <a class="btn btn--small btn--ghost" href="assets/menu/toasties-menu-vertical.jpg" target="_blank" rel="noopener">Phone-sized menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FIND US / SCHEDULE ============ -->
+    <section class="section find-us" id="find-us">
+      <div class="container">
+        <header class="section__head section__head--split">
+          <div>
+            <p class="eyebrow">We move around</p>
+            <h2 class="section__title">Find the Trailer</h2>
+            <p class="section__lede">Here's where we'll be parked next. Times and spots update straight from our calendar, so this is always the latest.</p>
+          </div>
+          <img class="find-us__trailer" src="assets/trailer-cutout.png" alt="The Toasties food trailer" width="900" height="615" loading="lazy">
+        </header>
+
+        <div id="schedule-root" class="schedule" aria-live="polite">
+          <div class="schedule__loading">
+            <span class="spinner" aria-hidden="true"></span> Checking the calendar…
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow">Fresh off the grill</p>
+          <h2 class="section__title">The Goods</h2>
+        </header>
+        <!-- 3 tall + 6 regular tiles = a clean 4×3 grid on desktop (dense auto-placement fills the rest). -->
+        <div class="gallery__grid">
+          <button class="gallery__item gallery__item--tall" data-full="assets/gallery/classic-2.jpg" aria-label="View larger: The Classic">
+            <img src="assets/gallery/classic-2.jpg" alt="The Classic grilled cheese with a dramatic cheese pull" loading="lazy" width="900" height="1200">
+          </button>
+          <button class="gallery__item" data-full="assets/gallery/dilly.jpg" aria-label="View larger: The Dilly">
+            <img src="assets/gallery/dilly.jpg" alt="The Dilly — grilled cheese with pickles and potato chips" loading="lazy" width="1200" height="900">
+          </button>
+          <button class="gallery__item" data-full="assets/gallery/sweet-and-spicy.jpg" aria-label="View larger: The Sweet & Spicy">
+            <img src="assets/gallery/sweet-and-spicy.jpg" alt="The Sweet & Spicy — grilled cheese with jalapeños and honey" loading="lazy" width="1200" height="876">
+          </button>
+          <button class="gallery__item gallery__item--tall" data-full="assets/gallery/tomater.jpg" aria-label="View larger: The Tomater">
+            <img src="assets/gallery/tomater.jpg" alt="The Tomater — grilled cheese with tomato and basil" loading="lazy" width="800" height="1200">
+          </button>
+          <button class="gallery__item gallery__item--tall" data-full="assets/gallery/smores.jpg" aria-label="View larger: The S'mores">
+            <img src="assets/gallery/smores.jpg" alt="The S'mores melt with gooey marshmallow and Nutella" loading="lazy" width="960" height="1200">
+          </button>
+          <button class="gallery__item" data-full="assets/gallery/sweet-melt.jpg" aria-label="View larger: sweet melt">
+            <img src="assets/gallery/sweet-melt.jpg" alt="A sweet melt cut in half in front of the Toasties trailer" loading="lazy" width="1200" height="900">
+          </button>
+          <button class="gallery__item" data-full="assets/gallery/classic.jpg" aria-label="View larger: The Classic, stacked">
+            <img src="assets/gallery/classic.jpg" alt="The Classic grilled cheese, cut and stacked" loading="lazy" width="800" height="1200" style="object-position: 50% 40%">
+          </button>
+          <button class="gallery__item" data-full="assets/gallery/cheese-pull.jpg" aria-label="View larger: cheese pull">
+            <img src="assets/gallery/cheese-pull.jpg" alt="Grilled cheese with a long cheese pull" loading="lazy" width="800" height="1200" style="object-position: 50% 30%">
+          </button>
+          <button class="gallery__item" data-full="assets/trailer.jpg" aria-label="View larger: the trailer">
+            <img src="assets/trailer.jpg" alt="The Toasties trailer set up under the trees with the menu on the side" loading="lazy" width="1400" height="1050">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <figure class="about__photo">
+          <img src="assets/trailer-2.jpg" alt="The Toasties trailer with its serving window open" loading="lazy" width="1400" height="1050">
+        </figure>
+        <div class="about__copy">
+          <p class="eyebrow">Meet the owner</p>
+          <h2 class="section__title">Hi, I'm Brett.</h2>
+          <p>I'm the owner and operator of Toasties. I've been working in the food industry for over 20 years, and I've always had a passion for creating food that brings people together. Growing up on Nova Scotia's South Shore, I've developed a deep appreciation for our local communities and the incredible ingredients produced here. That's why I love featuring locally sourced products whenever possible, especially in our rotating <strong>Toastie of the Day</strong> specials.</p>
+          <p>At Toasties, every grilled cheese is made fresh to order on classic white bread grilled in our signature garlic parmesan butter and filled with quality cheeses and carefully selected ingredients. Whether you stop by at a farmers' market, beach, festival, or community event, my goal is to serve comforting, flavour-packed food with a friendly smile and a little creativity.</p>
+          <p class="about__signoff">Thanks for supporting local — I look forward to serving you a Toastie soon!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT / BOOK ============ -->
+    <section class="section contact" id="contact">
+      <div class="container contact__card">
+        <div class="contact__copy">
+          <p class="eyebrow eyebrow--light">Catering & events</p>
+          <h2 class="section__title">Bring Toasties to your event</h2>
+          <p id="contact-blurb"></p>
+        </div>
+        <div class="contact__actions" id="contact-actions"><!-- rendered by js/app.js --></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo-sm.png" alt="Toasties" width="96" height="96">
+        <p>Made with 🧀 on Nova Scotia's South Shore.</p>
+      </div>
+      <ul class="footer__links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#find-us">Find the Trailer</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Book Us</a></li>
+      </ul>
+      <div class="footer__social" id="footer-social"><!-- rendered by js/app.js --></div>
+    </div>
+    <p class="footer__legal container">© <span id="year"></span> Toasties. Prices subject to change; tax is extra.</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox">
+    <button class="lightbox__close" aria-label="Close">×</button>
+    <img id="lightbox-img" alt="">
+  </dialog>
+
+  <script src="js/config.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
