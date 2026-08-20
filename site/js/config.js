@@ -14,7 +14,7 @@ window.TOASTIES_CONFIG = {
         and paste it below. It looks like:
         "abc123xyz@group.calendar.google.com"
   */
-  calendarId: "",
+  calendarId: "toastiescheeseshack@gmail.com",
 
   /* 3) OPTIONAL but recommended: a Google Calendar API key.
         With a key, upcoming stops render as nice cards below.
