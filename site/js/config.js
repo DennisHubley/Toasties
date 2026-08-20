@@ -30,9 +30,9 @@ window.TOASTIES_CONFIG = {
   maxEvents: 8,
 
   /* ---- Contact & social ---- Leave blank to hide a link. */
-  instagram: "",          // e.g. "https://www.instagram.com/toasties"
-  facebook: "",           // e.g. "https://www.facebook.com/toasties"
-  email: "",              // e.g. "hello@toasties.ca"
+  instagram: "https://www.instagram.com/toasties_ns",          // e.g. "https://www.instagram.com/toasties"
+  facebook: "https://www.facebook.com/toastiescheeseshack",           // e.g. "https://www.facebook.com/toasties"
+  email: "toastiescheeseshake@gmail.com",              // e.g. "hello@toasties.ca"
   phone: "",              // e.g. "+1 902 555 0123"
 
   /* Shown in the footer and used for catering / event enquiries. */
